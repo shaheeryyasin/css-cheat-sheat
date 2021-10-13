@@ -1,0 +1,131 @@
+body{
+  background-color: darkgray;
+  color: chartreuse;
+
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-large;
+  font-weight: bold;
+
+
+  line-height:1.6em;
+}
+
+a{
+   text-decoration: wavy;
+}
+
+a:hover{
+  color:chocolate;
+}
+
+a:active{
+  color: navy;
+}
+
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.button[type="submit"]{
+  background-color: turquoise;
+  color: deeppink;
+  padding: 10px 15px;
+  border: groove;
+}
+.button:hover{
+  background: firebrick;
+}
+
+.clr{
+  clear:both
+}
+
+.box-1{
+  background-color: dodgerblue;
+  color: darkred;
+  
+ border: 5px red solid;
+ border-style: ridge;
+
+ padding: 2cm;
+
+ margin: 5%;
+}
+.box-1 h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  text-decoration: wavy;
+  text-transform: capitalize;
+  letter-spacing: 0.2em;
+}
+.box-2{
+  border:3px dotted #ccc;
+  padding: 20px;
+  margin: 20px;
+}
+
+.Categories{
+  border: 1px steelblue solid;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.categories h2{
+  text-align: center;
+}
+
+.categories ul{
+  padding: 0;
+  padding-left: 20px;
+  list-style: georgian;
+}
+
+.categories li{
+  padding: 8px;
+  border-bottom: dotted 1px #333;
+
+}
+
+.my-form{
+  padding: 20px;
+}
+
+.form-group{
+  padding-bottom: 15px;
+}
+
+.my-form label{
+ display: grid;
+}
+
+.my-form input[type="text"], .my-form textarea{
+   padding: 8px; 
+   width: 100%; 
+}
+
+.block{
+  float: left;
+  width: 33.3%;
+  border: 1px solid silver;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#main-block{
+  float: left;
+  width: 70%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+#sidebar{
+  float: right;
+  width: 30%;
+  background-color: wheat;
+  color: brown;
+  padding: 15px;
+  box-sizing: border-box;
+}
